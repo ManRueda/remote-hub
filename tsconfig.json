@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs",
+		"sourceMap": true,
+		"declaration": true,
+		"outDir": "out",
+		"watch": true
+	}
+}

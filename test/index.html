@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Your Website</title>
+	<script src="https://cdn.socket.io/socket.io-1.3.7.js"></script>
+	<script>
+		var socket = io('http://localhost:8885');
+		socket.on('MouseMove', function (data) {
+			var item = document.querySelector('body');
+			item.innerText = 'X:' + data.xDelta + ' - Y:' + data.yDelta;
+		});
+	</script>
+</head>
+
+<body>
+</body>
+
+</html>
