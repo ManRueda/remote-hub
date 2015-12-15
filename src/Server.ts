@@ -7,7 +7,7 @@ import debug = require('debug');
 
 let log = debug('remoteControl:Server');
 
-export module RemoteServer{
+export module RemoteHub{
 	export enum ServerEvents{
 		MouseMove
 	}
